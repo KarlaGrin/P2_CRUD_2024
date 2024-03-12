@@ -46,14 +46,24 @@ body {
   
   #pendientes li {
     width: 100%;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:space-between;
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid black;
-    
-    
+    grid: repeat(1, 3fr) / auto-flow 100px;
+   
   }
   
+  .editarTarea {
+    display: grid;
+    align-items: end;
+    cursor: pointer;
+  }
+
+  .borrarTarea {
+    align-items: end;
+    cursor: pointer;
+  }

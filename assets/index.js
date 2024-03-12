@@ -26,9 +26,7 @@ crearButton.addEventListener('click', function () {
     }
 });
 
-/*borrarTextoButton.addEventListener('click', function () {
-    textarea.value = '';
-}); */
+
 
 function agregarPendiente(tarea) {
     const li = document.createElement('li');

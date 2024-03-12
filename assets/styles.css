@@ -4,16 +4,8 @@ body {
     margin: 0;
     padding: 0;
   }
-
-
   
-  header {
-    background-color:black;
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
-  
+
   main {
     padding: 20px;
   }
@@ -24,7 +16,7 @@ body {
   }
   
   .escribe {
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
@@ -41,15 +33,19 @@ body {
   }
   
   .contenedorpendientes {
-    width: auto;
+    width: 80%;
+    
   }
 
   #pendientes {
     list-style-type:georgian;
-    padding: 0;
+    padding: 0; 
+    display: grid;
+    flex-wrap: wrap;
   }
   
   #pendientes li {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -57,5 +53,7 @@ body {
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid black;
+    
+    
   }
   
